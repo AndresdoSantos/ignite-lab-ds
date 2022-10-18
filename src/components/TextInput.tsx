@@ -2,7 +2,7 @@ import { InputHTMLAttributes, ReactNode } from 'react'
 import { Slot } from '@radix-ui/react-slot'
 
 export interface TextInputRootProps {
-  children: JSX.Element
+  children: JSX.Element | JSX.Element[]
 }
 
 function TextInputRoot({ children }: TextInputRootProps) {
